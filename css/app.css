@@ -1,0 +1,32 @@
+---
+---
+
+body {
+  padding-top: 50px;
+}
+table td {
+ padding: 5px;
+ text-align:left;
+}
+.hero-unit {
+  background-image:url('/images/BirdTreeLarge.png');
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  height:300px;
+}
+
+h1.hero-text {
+  font-size: 6em;
+  position: absolute;
+  z-index: 10;
+  width: inherit;
+}
+
+.listsContainer{margin-left:5em}
+.listTable{border: 1pt solid #bbb;}
+.speciesContainer {height:400px; border-radius: 4pt;overflow-y:scroll; margin: 5px;text-align:left;border: 1pt solid black;}
+.species {height:400px;width:50%;overflow-y:scroll; overflow-x:hidden; text-align:left;}
+.selectedContainer{height:400px; border-radius: 4pt;border:1pt solid black; overflow-y:scroll; margin: 5px; overflow-x:hidden}
+.selectLabels{-webkit-touch-callout: none;-webkit-user-select: none;}
