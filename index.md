@@ -5,7 +5,7 @@ weight: 1
 ---
 
 <div class="container">
-  <h1 class="hero-text">A GLOBAL PHYLOGENY OF BIRDS</h1>
+  <h1 class="hero-text">A GLOBAL PHYLOGENY OF SHARKS</h1>
   <div class="hero-unit">  
   </div>
 </div>
