@@ -13,10 +13,8 @@ The class Chondrichthyes is composed of two subclasses, the Holocephali (chimaer
 
 For a complete species list and summary of revisions see [Supplementary Table 1](https://www.nature.com/articles/s41559-017-0448-4#Sec18)
 
-Annotated checklist of the living sharks, batoids and chimaeras (Chondrichthyes) of the world, with a focus on biogeographical diversity. S. Weigman. Journal of Fish Biology, [88, 837-1037](http://onlinelibrary.wiley.com/doi/10.1111/jfb.12874/abstract)
-
 Further Resources
-=================
-
+-----------------
+Annotated checklist of the living sharks, batoids and chimaeras (Chondrichthyes) of the world, with a focus on biogeographical diversity. S. Weigman. Journal of Fish Biology, [88, 837-1037](http://onlinelibrary.wiley.com/doi/10.1111/jfb.12874/abstract)
 [Chondrichthyan Tree of Life Project](http://sharksrays.org/)
 [IUCN Redlist](http://redlist.org/)
