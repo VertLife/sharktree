@@ -11,24 +11,14 @@ weight: 1
 </div>
 
 
-This website accompanies the following studies:
+This website accompanies the study:
 
-The global diversity of birds in space and time  
-W. Jetz,  G. H. Thomas, J. B. Joy, K. Hartmann, A. O. Mooers
-Nature, 491: 444-448
+Global priorities for conserving the evolutionary history of sharks, rays, and chimaeras
+R.W. Stein, C.G. Mull, T.S. Kuhn, N.C. Aschliman, L.N.K. Davidson, J.B. Joy, G.J. Smith, N.K. Dulvy, A.O. Mooers
+Nature Ecolgy and Evolution, 2
 
-doi:10.1038/nature11631  
-URL:[http://www.nature.com/nature/journal/v491/n7424/full/nature11631.html](http://www.nature.com/nature/journal/v491/n7424/full/nature11631.html)
+https://doi.org/10.1038/s41559-017-0448-4
 
-
-Distribution and conservation of global evolutionary distinctness in birds  
-Jetz, W., G. H. Thomas, J. B. Joy, K. Hartmann, D. Redding, and A. O. Mooers. 2014. Current Biology 24, 1-12  
-
-URL: [http://dx.doi.org/10.1016/j.cub.2014.03.011](http://dx.doi.org/10.1016/j.cub.2014.03.011)  
+Read about it here: ['Behind the Paper'](https://natureecoevocommunity.nature.com/users/75975-chris-mull/posts/29362-saving-sharks-with-trees)
 
 
-Explore results in Map of Life:  
-[http://www.mol.org/projects/ED](http://www.mol.org/projects/ED)  
-[http://species.mol.org/info/](http://species.mol.org/info/)  
-Explore results on OneZoom tree:    
-[http://www.onezoom.org/EDGE_birds.htm](http://www.onezoom.org/EDGE_birds.htm)
