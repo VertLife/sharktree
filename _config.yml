@@ -5,4 +5,4 @@ kramdown:
   input: GFM
 pygments: true
 permalink: pretty
-root: sharktree
+root: /sharktree
