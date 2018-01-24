@@ -24,6 +24,6 @@ There are four choices of class-wide tree distribution to choose from. 10k trees
 
 Alternatively, distributions for individual clades or backbone trees can be downloaded by following these links:
 
-[Sequence data only](https://data.vertlife.org/sharktree/610.tree.10Cal.RAxMLBS.nex)
+[Sequence data only](https://storage.cloud.google.com/data.vertlife.org/sharktree/610.tree.10Cal.RAxML.BS.nex?_ga=2.264544010.-447563639.1513706511)
 
 [Full trees](https://data.vertlife.org/?start_folder=PatchClade/Stage2/)
