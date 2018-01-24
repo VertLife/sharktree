@@ -46,9 +46,9 @@
             {% assign pages = site.pages | sort:"weight"  %}
             {% for node in pages %}
               {% if page.url == node.url %}
-                <li class="active"><a href="/sharktree/{{node.url}}" class="active">{{node.title}}</a></li>
+                <li class="active"><a href="{{site.root}}{{node.url}}" class="active">{{node.title}}</a></li>
               {% else %}
-                <li><a href="/sharktree/{{node.url}}">{{node.title}}</a></li>
+                <li><a href="{{site.root}}{{node.url}}">{{node.title}}</a></li>
               {% endif %}
             {% endfor %}
           </ul>
