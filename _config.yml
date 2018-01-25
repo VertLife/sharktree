@@ -1,8 +1,8 @@
-name: SharkTree.org
+name: VertLife.org
 highlighter: rouge
 markdown: kramdown
 kramdown:
   input: GFM
 pygments: true
 permalink: pretty
-root:
+root: /sharktree
