@@ -33,7 +33,7 @@ sources.
 <div class="well well-sm">
   <p>
     <strong>Results taking longer than expected? </strong>
-    <br />Traffic volume may result in longer processing times. If you don't recieve an email with the completed subset trees within 24 hours, please <a href="mailto:support@birdtree.org">contact us</a>.
+    <br />Traffic volume may result in longer processing times. If you don't recieve an email with the completed subset trees within 24 hours, please <a href="mailto:support@vertlife.org">contact us</a>.
   </p>
 </div>
 
