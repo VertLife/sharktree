@@ -9,7 +9,7 @@ table td {
  text-align:left;
 }
 .hero-unit {
-  background-image:url('/images/SharkCover.jpg');
+  background-image:url('{{site.root}}/images/SharkCover.jpg');
   opacity: 1.0;
   background-repeat: no-repeat;
   background-attachment: fixed;
