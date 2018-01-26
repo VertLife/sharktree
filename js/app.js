@@ -7,6 +7,66 @@ function getURLParameter(name) {
     );
 }
 
+$('#btnGetTrees').click(function(event) {
+    
+  $("#loading").toggle(true);
+  $("#status").toggle(false);
+
+  // var birdurl =  'https://tree-pruner-dot-map-of-life.appspot.com/api/prune';
+  // if (getURLParameter('debug') == 'true') {
+  //   birdurl =  'https://tree-pruner-alpha-dot-map-of-life.appspot.com/api/prune';
+  // }
+  var birdurl =  'https://tree-pruner-alpha-dot-map-of-life.appspot.com/api/prune';
+  $.post(birdurl, {
+    email: $('#email').val(),
+    tree_base: 'sharktree',
+    tree_set: $('#treeset').val(),
+    sample_size: $('#treenum').val(),
+    species: $('#selected').val()
+  }).done(function (data) {
+    $("#status").html('<div class="alert alert-success"><h4>Your request has been submitted</h4> <p>Please note your job id for reference: <strong>' + data.job_id + '</strong>. <br /> We will email you with the final results.</p></div>');
+  }).fail(function (response) {
+    $("#status").html('<div class="alert alert-danger"><h4>There is an issue with your request</h4><p>' + response.responseJSON.message + '.</p></div>');
+  }).always(function () {
+    $("#loading").toggle(false);
+    $("#status").toggle(true);
+  });
+});
+
+$('#btnStatus').click(function(event) {
+  $("#loadingCheck").toggle(true);
+  $("#statusCheck").toggle(false);
+  checkJobStatus($('#emailStatus').val(), $('#jobid').val(), $("#statusCheck"));
+});
+
+function checkJobStatus(email, job_id, statusObj) {
+  // var url = 'http://tree-pruner.map-of-life.appspot.com/api/result';
+  // if (getURLParameter('debug') == 'true') {
+  //   url = 'http://tree-pruner-alpha.map-of-life.appspot.com/api/result';
+  // }
+  var birdurl =  'https://tree-pruner-alpha-dot-map-of-life.appspot.com/api/prune';
+  $.getJSON(url, {email: email, job_id: job_id})
+    .done(function(data) {
+      if (data.status == 'error') {
+        statusObj.html('<div class="alert alert-danger"><h4>There is an issue with your request</h4><p>' + data.message + '.</p></div>');
+      } else if (data.status == 'completed') {
+        statusObj.html('<div class="alert alert-success"><h4>Your request has been processed</h4><p>You can download your generated samples <a href="' + data.message + '" class="alert-link">here</a>.</p></div>');
+      } else {
+        statusObj.html('<div class="alert alert-info"><h4>Hold your horses</h4><p>' + data.message + '.</p></div>');
+        // window.setTimeout(function() {
+        //   checkJobStatus(email, job_id, statusObj);
+        // }, 60000);
+      }
+    })
+    .fail(function(response) {
+      $("#statusCheck").html('<div class="alert alert-danger"><h4>There is an issue with your request</h4><p>Please try again or contact us if the problem persists.</p></div>');
+    })
+    .always(function() {
+      $("#loadingCheck").toggle(false);
+      $("#statusCheck").toggle(true);
+    });
+}
+
 $('#gettrees').click(
        function(event) {
     var birdurl =  'http://litoria.eeb.yale.edu/bird-tree/cgi-bin/birdsJ.pl';
