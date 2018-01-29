@@ -14,9 +14,15 @@ The phylogeny is available to download as either archives of complete trees (bel
 
 There are four choices of class-wide tree distribution to choose from. 10k trees for fully resolved verions from the 10 or 1 fossil calibration scenarios, or 500 trees for data only trees from the 10 or 1 fossil calibration scenarios. Trees are stored as zip archives of 1K trees each. Full details of each tree distribution are available in the methods section and supplementary material.
 
+Fully Resolved Trees
+--------------------
+
 [Full trees (1192 species), 10 fossil calibration](https://data.vertlife.org/sharktree/10.cal.tree.nex)
 
 [Full trees (1192 species), 1 fossil calibration](https://data.vertlife.org/sharktree/1.cal.tree.nex)
+
+Genetic Data Only Trees
+-----------------------
 
 [Genetic data only trees (610 species), 10 fossil calibration](https://data.vertlife.org/sharktree/Chondrichthyan.610sp.10_fossil_Calibration.500treePLtrees.nex)
 
