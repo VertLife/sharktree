@@ -12,7 +12,7 @@ Phylogeny subsets
 
 This tool provides a simple way to produce distributions of trees with subsets
 of taxa. The upper limit for the tool is 2,500 species. If larger subsets ar
-required you can [download full trees](https://data.vertlife.org/sharktree/).
+required you can [download full trees](https://data.vertlife.org/?basetree=sharktree).
 
 The tool first trims to a subset, and then samples trees from a chosen
 pseudo-posterior distribution. *Note that any further analyses should only
