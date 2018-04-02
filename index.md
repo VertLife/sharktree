@@ -17,8 +17,8 @@ Global priorities for conserving the evolutionary history of sharks, rays, and c
 R.W. Stein, C.G. Mull, T.S. Kuhn, N.C. Aschliman, L.N.K. Davidson, J.B. Joy, G.J. Smith, N.K. Dulvy, A.O. Mooers
 Nature Ecolgy and Evolution, 2
 
-https://doi.org/10.1038/s41559-017-0448-4
+Find the paper here: [10.1038/s41559-017-0448-4](https://doi.org/10.1038/s41559-017-0448-4)
 
-Read about it here: ['Behind the Paper'](https://natureecoevocommunity.nature.com/users/75975-chris-mull/posts/29362-saving-sharks-with-trees)
+Read more about it here: ['Behind the Paper'](https://natureecoevocommunity.nature.com/users/75975-chris-mull/posts/29362-saving-sharks-with-trees)
 
 

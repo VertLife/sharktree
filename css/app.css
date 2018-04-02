@@ -9,12 +9,12 @@ table td {
  text-align:left;
 }
 .hero-unit {
-  background-image:url('{{site.root}}/images/SharkCover.png');
+  background-image:url('{{site.root}}/images/CoverImagesmallest.png');
   opacity: 1.0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center top;
-  height:300px;
+  height:500px;
 }
 
 h1.hero-text {
